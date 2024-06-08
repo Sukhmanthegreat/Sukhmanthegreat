@@ -1,21 +1,23 @@
 body {
-	background-color: grey;
-}
+  background-color: grey;
+  margin: 0;  font-family: Arial, sans-serif;  }
+
+.container {
+  text-align: center;  padding: 20px;  max-width: 700px;  margin: 0 auto;  }
+
 #Sukhman {
-   font-family: cursive;
-}
-#youtube {
-	position: relative;
-	bottom: -50px;
-	left: 280px;
-}
-#github {
-	position: relative;
-	bottom: -110px;
-	left: 210px;
-}
+  font-style: italic;  }
+
+.buttons {
+  display: flex;  justify-content: center;  margin-top: 20px;  }
+
+.buttons button {
+  margin: 0 10px;  }
+
 #developing {
-	font-family: cursive;
-	position: relative;
-	bottom: -250px;
-}
+  font-style: italic;
+  margin-top: 20px;  }
+
+img {
+  width: 70px;
+  height: 50px;  }
