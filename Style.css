@@ -1,0 +1,21 @@
+body {
+	background-color: grey;
+}
+#Sukhman {
+   font-family: cursive;
+}
+#youtube {
+	position: relative;
+	bottom: -50px;
+	left: 280px;
+}
+#github {
+	position: relative;
+	bottom: -110px;
+	left: 210px;
+}
+#developing {
+	font-family: cursive;
+	position: relative;
+	bottom: -250px;
+}
