@@ -1,23 +1,39 @@
 body {
-  background-color: grey;
-  margin: 0;  font-family: Arial, sans-serif;  }
+  background-color:grey;
+}
 
-.container {
-  text-align: center;  padding: 20px;  max-width: 700px;  margin: 0 auto;  }
+.profile {
+  text-align: center;
+  margin-top: 100px; /* Adjust margin as needed */
+  display: flex; /* Enable flexbox layout for responsive positioning */
+  flex-direction: column; /* Stack elements vertically by default */
+  align-items: center; /* Center elements horizontally */
+}
 
-#Sukhman {
-  font-style: italic;  }
+.info {
+  text-align: left; /* Align text to the left */
+  color: white;
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5; /* Add some line spacing for readability */
+  font-family: cursive;
+}
 
-.buttons {
-  display: flex;  justify-content: center;  margin-top: 20px;  }
+.location {
+ /* Removed negative margin for better responsiveness */
+}
 
-.buttons button {
-  margin: 0 10px;  }
+.name-tag {
+ /* Removed negative margin for better responsiveness */
+}
 
-#developing {
-  font-style: italic;
-  margin-top: 20px;  }
+.about-me {
+  margin-bottom: 50px; /* Add space between elements (adjust as needed) */
+  color: white;
+  font-family: cursive;
+}
 
-img {
-  width: 70px;
-  height: 50px;  }
+.profile-photo {
+  width: 100%; /* Maintain image aspect ratio */
+  height: auto; /* Adjust height based on width */
+  border-radius: 50%;
+}
